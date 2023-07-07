@@ -1,16 +1,22 @@
 {
-  "plugins": ["prettier"],
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "extends": "airbnb-base",
   "env": {
     "es6": true,
     "browser": true,
-    "jest/globals": true
+    "jest": true
   },
   "parserOptions": {
+    "ecmaVersion": "latest",
+    "parser": "@babel/eslint-parser",
     "sourceType": "module"
   },
   "rules": {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ]
   },
   "overrides": [
     {

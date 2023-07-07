@@ -1,4 +1,5 @@
 # Домашнее задание к занятию "4.Организация тестирования"
+[![Build status](https://ci.appveyor.com/api/projects/status/cx10rntshonfg0m0?svg=true)](https://ci.appveyor.com/project/bas27/fpyahj-testing)
 
 Правила сдачи задания:
 
